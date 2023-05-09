@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Serif:ital@1&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Serif:ital,wght@0,500;1,400&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.6%;
+}
+.heading{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF2CC;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heading h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.Cardsdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #d1d9dd;
+}
+
+.card{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 40px;
+    border: 1px solid black;
+    background: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 20px;
+    
+}
+
+.cardimg{
+    width: 100%;
+   
+   
+    
+}
+
+.cardimg img{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0;
+   
+}
+
+.cardbody{
+    width: 100%;
+    margin: 10px;
+   
+    
+}
+
+.cardbody details{
+   padding: 10px 20px;
+}
+
+.cardbody h2{
+    font-size: 1.5rem;
+    font-family: 'Roboto Serif', serif;
+    margin: 0 20px;
+    
+}
+.cardbody p{
+    margin: 15px 0;
+    font-size: 1.2rem;
+    font-family: 'Roboto Serif', serif;
+    margin: 5px 20px;
+    height: 10vh;
+    overflow-y: scroll;
+
+
+}
+
+.link{
+    width: 100%;
+    margin: 20px;
+}
+
+.link button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Roboto Serif', serif;
+    margin: 0 5px;
+    cursor: pointer;
+
+    
+}
+
+
+@media (max-width: 1200px) {
+    .card{
+        flex: 1 1 300px;
+    }
+  }
+@media (max-width: 780px) {
+    .card{
+        flex: 0 0 400px;
+    }
+  }
+@media (max-width: 480px) {
+    .card{
+        flex: 0 0 300px;
+    }
+    
+    
+}
+@media (max-width: 560px) {
+    .heading h1{
+        font-size: 2rem;
+       
+    }
+
+}
+@media (max-width: 409px) {
+    .heading h1{
+        font-size: 1.5rem;
+        text-align: center;
+       
+    }
+
+}
